@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1440px;
+    height: 80px;
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+    margin: 0 auto;
+}
+.nav h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    color: #FFFFFF;
+    margin-left: 81px;
+    padding-top: 20px;
+}
+.nav h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    color: #FFFFFF;
+    margin-left: 1280px;
+    margin-top: -29px;
+}
+.section{
+    width: 1440px;
+    height: 1000px;
+    background: #202C36;
+    margin: 0 auto;    
+}
+form input{
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;    
+    background: #2B3844;
+    margin-top: 48px;
+    margin-left: 80px;
+    padding-left: 70px;
+}
+.section img{
+    position: relative;
+    top: 5px;
+    right: 450px;
+}
+.cards{
+    max-width: 1300px;
+    height: 948px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 264px;
+    height: 250px;
+    border-radius: 5px; 
+    background: #2B3844;
+    position: relative;
+    top: 48px;
+    left: 80px;
+}
+.card img{
+    position: relative;
+    right: 10px;
+    margin-top: -15px;
+}
+.card h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;  
+    text-align: center;
+    padding-top: 25px;
+    color: #FFFFFF; 
+}
+.card2{
+    width: 264px;
+    height: 250px;
+    border-radius: 5px; 
+    background: #2B3844;
+    position: relative;
+    top: 48px;
+    left: 80px;
+}
+.card2 img{
+    position: relative;
+    left: 1px;
+    margin-top: -10px;
+}
+.card2 h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;  
+    text-align: center;
+    padding-top: 25px;
+    color: #FFFFFF; 
+}
+@media (max-width:1000px) {
+    .cards{
+        gap: 128px;
+    }
+}
